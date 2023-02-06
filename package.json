@@ -1,0 +1,18 @@
+{
+  "name": "oreby-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:hasiburdev/oreby-server.git",
+  "author": "Hasibur Rahman <90032528+hasiburdev@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
